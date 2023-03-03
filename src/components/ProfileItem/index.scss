@@ -1,0 +1,22 @@
+.profile__item {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 20px;
+  transition: 0.3s;
+  padding: 30px;
+  width: 300px;
+  &:hover {
+    opacity: 0.8; 
+    background-color: #e9e9e9;
+  }
+}
+
+.profile__item__name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

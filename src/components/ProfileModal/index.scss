@@ -1,0 +1,61 @@
+.profile__modal {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-height: 550px;
+  max-width: 600px;
+  width: 600px;
+  overflow: auto;
+}
+
+.profile__modal__header {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__modal__info {
+  font-size: 20px;
+  margin: 20px;
+}
+
+ul {
+  padding: 0px;
+  li {
+    list-style-type: none;
+  }
+}
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  &:hover {
+    color: #009879;
+    cursor: pointer;
+  }
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}

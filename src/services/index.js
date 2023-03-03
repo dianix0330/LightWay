@@ -1,0 +1,1 @@
+export { SWAPI } from "./APIService";

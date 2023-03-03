@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+This is LifeWay IT's code challenge given to full stack software engineering candidates! Interested in working with our team? Check out open positions [here](http://tech.lifeway.com/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Premise
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The premise of this challenge is to create a "profile page" for various star wars characters in the Star Wars universe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Specification
 
-### `npm test`
+Create a simple single page application that provides the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * A search bar that takes the characters name as input.
+  * A profile containing the following sectional information for the searched character:
+    * About Me (height, weight, hair color, date of birth, species information)
+    * Films Appeared In
+    * Starships Flown
 
-### `npm run build`
+Use [SWAPI](https://swapi.dev/) to obtain all the star wars data that you need.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Use whatever languages or tech you want -- we are looking for clean, testable code that demonstrates usage of common design patterns and best practices above all else. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### BUT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You will get bonus points if...
 
-### `npm run eject`
+* A decent understanding of React is demonstrated
+* A decent understanding of Next.js is demonstrated
+* A decent understanding of unit/integration testing is demonstrated
+* A basic "gateway" api is created to consolidate and proxy calls to SWAPI
+* You add cool and creative features not included in the spec
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Submissions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please put your submission in a public github repository to share.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div class="footer">
+  <img src="https://commerce-notification-service-uat.s3.amazonaws.com/emails/Lifewaylogo__RGB_gray_flat.png" alt="Lifeway Christian Resources" width="150" style="padding: 1rem;">
+</div>
